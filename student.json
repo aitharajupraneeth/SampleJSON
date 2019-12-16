@@ -1,0 +1,73 @@
+[
+  {
+    "Name": "BrillioStudent1",
+    "AccNumber": "1",
+    "Source": "Web",
+    "Site": "www.gmail.com",
+    "Email": "BrillioStudent1@gmail.com"
+  },
+  {
+    "Name": "BrillioStudent2",
+    "AccNumber": "2",
+    "Source": "Phone Inquiry",
+    "Site": "www.yahoo.com",
+    "Email": "BrillioStudent2@yahoo.com"
+  },
+  {
+    "Name": "BrillioStudent3",
+    "AccNumber": "3",
+    "Source": "Partner Referral",
+    "Site": "www.hotmail.com",
+    "Email": "BrillioStudent3@hotmail.com"
+  },
+  {
+    "Name": "BrillioStudent4",
+    "AccNumber": "4",
+    "Source": "Partner Referral",
+    "Site": "www.rediff.com",
+    "Email": "BrillioStudent4@rediffmail.com"
+  },
+  {
+    "Name": "BrillioStudent5",
+    "AccNumber": "5",
+    "Source": "Purchased List",
+    "Site": "www.hotmail.com",
+    "Email": "BrillioStudent5@hotmail.com"
+  },
+  {
+    "Name": "BrillioStudent6",
+    "AccNumber": "6",
+    "Source": "Purchased List",
+    "Site": "www.hotmail.com",
+    "Email": "BrillioStudent6@hotmail.com"
+  },
+  {
+    "Name": "BrillioStudent7",
+    "AccNumber": "7",
+    "Source": "Web",
+    "Site": "www.ymail.com",
+    "Email": "BrillioStudent7@ymail.com"
+  },
+  {
+    "Name": "BrillioStudent8",
+    "AccNumber": "8",
+    "Source": "Other",
+    "Site": "www.rocketmail.com",
+    "Email": "BrillioStudent8@rocketmail.com"
+  },
+  {
+    "Name": "BrillioStudent9",
+    "AccNumber": "9",
+    "Source": "Other",
+    "Site": "www.mail.com",
+    "Email": "BrillioStudent9@mail.com"
+  },
+  {
+    "Name": "BrillioStudent10",
+    "AccNumber": "10",
+    "Source": "Call",
+    "Site": "www.rocketmail.com",
+    "Email": "BrillioStudent10@rocketmail.com"
+  }
+  
+]
