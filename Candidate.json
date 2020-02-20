@@ -1,73 +1,23 @@
-[
-  {
-    "Name": "Brillio1",
-    "AccNumber": "1",
-    "Source": "Web",
-    "Site": "www.gmail.com",
-    "Email": "Brillio1@gmail.com"
-  },
-  {
-    "Name": "Brillio2",
-    "AccNumber": "2",
-    "Source": "Phone Inquiry",
-    "Site": "www.yahoo.com",
-    "Email": "Brillio2@yahoo.com"
-  },
-  {
-    "Name": "Brillio3",
-    "AccNumber": "3",
-    "Source": "Partner Referral",
-    "Site": "www.hotmail.com",
-    "Email": "Brillio3@hotmail.com"
-  },
-  {
-    "Name": "Brillio4",
-    "AccNumber": "4",
-    "Source": "Partner Referral",
-    "Site": "www.rediff.com",
-    "Email": "Brillio4@rediffmail.com"
-  },
-  {
-    "Name": "Brillio5",
-    "AccNumber": "5",
-    "Source": "Purchased List",
-    "Site": "www.hotmail.com",
-    "Email": "Brillio5@hotmail.com"
-  },
-  {
-    "Name": "Brillio6",
-    "AccNumber": "6",
-    "Source": "Purchased List",
-    "Site": "www.hotmail.com",
-    "Email": "Brillio6@hotmail.com"
-  },
-  {
-    "Name": "Brillio7",
-    "AccNumber": "7",
-    "Source": "Web",
-    "Site": "www.ymail.com",
-    "Email": "Brillio7@ymail.com"
-  },
-  {
-    "Name": "Brillio8",
-    "AccNumber": "8",
-    "Source": "Other",
-    "Site": "www.rocketmail.com",
-    "Email": "Brillio8@rocketmail.com"
-  },
-  {
-    "Name": "Brillio9",
-    "AccNumber": "9",
-    "Source": "Other",
-    "Site": "www.mail.com",
-    "Email": "Brillio9@mail.com"
-  },
-  {
-    "Name": "Brillio10",
-    "AccNumber": "10",
-    "Source": "Call",
-    "Site": "www.rocketmail.com",
-    "Email": "Brillio10@rocketmail.com"
-  }
-  
-]
+      //oAuth2 authentication...
+
+        var conn = new jsforce.Connection({
+            loginUrl : 'https://login.salesforce.com',
+            oauth2 : {
+                // you can change loginUrl to connect to sandbox or prerelease env.
+
+                clientId : '3MVG9fMtCkV6eLhePUUGgYZz_829_85yiASQN4T1xd7AAe5sPrO1hD6qVflsPaDVmpNMOFKCwRFhcCoQNT5bk',
+                clientSecret : 'C684AE953E972C67C46370C5F789C063F21CD35D5D01A903609959DD8A171B04',
+                redirectUri : 'http://localhost:3000/'
+            }
+        });
+        response.send('api is working');
+ /*then(function(){ //create metadata container :
+ return metadataContainer.create(conn,metadataContainerName);
+ }). then(function(res){
+ response.send(res);
+ //rboine.hackathon@salesforce.com.sourceorg','Dreamjob11'
+ */
+    conn.login('aitharaju.praneeth@gmail.com','Saihemanth1!')
+        .then(function(userInfo){
+            console.log('**' + userInfo.id);
+        })
